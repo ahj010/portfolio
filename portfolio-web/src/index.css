@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ :root{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width:100vw;
+  height:100vh;
+}
+
+/* @keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+} */
+
+/* .animate-slide {
+  animation: slide 5s linear infinite;
+  animation-direction: alternate;
+} */
+
+
+@layer base {
+  :root {
+    --radius:0.5rem;
+  }
+}
